@@ -22,6 +22,6 @@ plugins:
       kwargs:
         msg_from: ${2567664364@qq.com}
         msg_to: ${457833248@qq.com}
-        password: ${}
+        password: ${pakyzbfhzcxpebgj}
         title: ${EMAIL_TITLE}
         content: ${EMAIL_CONTENT}

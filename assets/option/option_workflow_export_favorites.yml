@@ -8,8 +8,8 @@ plugins:
   main:
     - plugin: login # 登录插件
       kwargs:
-        username: ${JM_USERNAME}
-        password: ${JM_PASSWORD}
+        username: ${changlumz}
+        password: ${xk43132120070427}
 
     - plugin: favorite_folder_export
       log: false
@@ -20,8 +20,8 @@ plugins:
 
     - plugin: send_qq_email # 发送邮件，如果未配置下面的前3个环境变量则不会发送。
       kwargs:
-        msg_from: ${EMAIL_FROM}
-        msg_to: ${EMAIL_TO}
-        password: ${EMAIL_PASS}
+        msg_from: ${2567664364@qq.com}
+        msg_to: ${457833248@qq.com}
+        password: ${}
         title: ${EMAIL_TITLE}
         content: ${EMAIL_CONTENT}

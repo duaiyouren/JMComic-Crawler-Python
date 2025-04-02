@@ -25,6 +25,7 @@ plugins:
         password: ${vxrpvldvgxrpbidb}
         title: ${EMAIL_TITLE}
         content: ${EMAIL_CONTENT}
+        
 after_photo:
     - plugin: img2pdf
       kwargs:

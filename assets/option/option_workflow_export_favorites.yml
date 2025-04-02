@@ -25,3 +25,8 @@ plugins:
         password: ${vxrpvldvgxrpbidb}
         title: ${EMAIL_TITLE}
         content: ${EMAIL_CONTENT}
+after_photo:
+    - plugin: img2pdf
+      kwargs:
+        pdf_dir: D:/pdf/
+        filename_rule: Pid

@@ -1,3 +1,19 @@
 download:
   image:
     suffix: .png
+
+plugins:
+   after_download: 
+    - plugin: send_qq_email 
+      kwargs:
+        msg_from: ${457833248@qq.com}
+        msg_to: 2567664364@qq.com
+        password: fnmtliatugpqbhib
+        title: jmcomic
+        content: jmcomic ok
+        
+   after_photo:
+    - plugin: img2pdf
+      kwargs:
+        pdf_dir: D:/pdf
+        filename_rule: Pid
